@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.app.dark {
+  background: #0f172a;
+  color: white;
+  min-height: 100vh;
+}
+
+.app.light {
+  background: #f1f5f9;
+  color: black;
+  min-height: 100vh;
+}
+
+.container {
+  width: 400px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+}
+
+input, select, button {
+  padding: 8px;
+}
+
+li {
+  margin-top: 10px;
+  padding: 10px;
+  background: #334155;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app.light li {
+  background: #e2e8f0;
+}
